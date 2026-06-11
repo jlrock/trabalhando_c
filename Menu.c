@@ -3,7 +3,7 @@
 int main(){
     int x;
     while (x != 0){
-        printf("Digite um numero entre 1, 2, 3 e 4. Digite 0 para sair:\n");
+        printf("Digite um numero entre 1,2,3,4,5. Digite 0 para sair:\n");
         scanf("%d", &x);
         switch (x){
             case 1:
@@ -18,8 +18,11 @@ int main(){
             case 4:
                 printf("Numero 4 escolhido\n");
                 break;
+            case 5:
+                printf("Numero 5 escolhido\n");
+                break;
             default:
-                printf("Nenhum desses numeros escolhidos\n");
+                printf("Nenhum dos numeros escolhidos\n");
                 break;
         }
     }
