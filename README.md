@@ -1,1 +1,2 @@
-# Repositório de estudos em C
+# Biblioteca de estruturas de dados em C
+> **Projeto futuro**
